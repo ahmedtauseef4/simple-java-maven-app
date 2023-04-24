@@ -21,9 +21,9 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         }
-        stage('SCM POLL TRIGGER SUCCESS') {
+        stage('Update1 Success') {
             steps {
-                sh 'echo "SCM Trigger was succesfull"'
+                sh 'echo "Update 1 build success"'
             }
         }
     }
